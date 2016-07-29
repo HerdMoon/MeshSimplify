@@ -1,0 +1,25 @@
+﻿生成启动时间为 2016/1/18 10:20:49。
+     1>项目“C:\Users\张\Desktop\期末大作业\MeshSimplify\MeshSimplify\MeshSimplify\MeshSimplify.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\Program Files\VS12\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\MeshSimplify.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt /p stdafx.cpp
+     1>cl : 命令行 warning D9002: 忽略未知选项“/p”
+         stdafx.cpp
+         F:\Program Files\VS12\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\MeshSimplify.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt /p MeshSimplify.cpp SimpleObject.cpp Vec3f.cpp
+     1>cl : 命令行 warning D9002: 忽略未知选项“/p”
+         MeshSimplify.cpp
+         SimpleObject.cpp
+     1>SimpleObject.cpp(226): warning C4018: “<”: 有符号/无符号不匹配
+         Vec3f.cpp
+       Link:
+         F:\Program Files\VS12\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\张\Desktop\期末大作业\MeshSimplify\MeshSimplify\Release\MeshSimplify.exe" /INCREMENTAL:NO /NOLOGO opencv_world300d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\张\Desktop\期末大作业\MeshSimplify\MeshSimplify\Release\MeshSimplify.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\张\Desktop\期末大作业\MeshSimplify\MeshSimplify\Release\MeshSimplify.lib" /MACHINE:X86 /SAFESEH Release\MeshSimplify.obj
+         Release\SimpleObject.obj
+         Release\stdafx.obj
+         Release\Vec3f.obj
+         正在生成代码
+         已完成代码的生成
+         MeshSimplify.vcxproj -> C:\Users\张\Desktop\期末大作业\MeshSimplify\MeshSimplify\Release\MeshSimplify.exe
+     1>已完成生成项目“C:\Users\张\Desktop\期末大作业\MeshSimplify\MeshSimplify\MeshSimplify\MeshSimplify.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.11
